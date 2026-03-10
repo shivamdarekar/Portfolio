@@ -16,9 +16,9 @@ export const SITE_CONFIG = {
 
 export const NAV_ITEMS = [
   { label: "Home", href: "/" },
-  { label: "About", href: "/about" },
-  { label: "Experience", href: "/experience" },
-  { label: "Projects", href: "/projects" }
+  { label: "About", href: "/#about" },
+  { label: "Projects", href: "/projects" },
+  { label: "Experience", href: "/experience" }
 ];
 
 // Legacy animation variants - use MOTION_VARIANTS from ui-constants instead

@@ -13,7 +13,7 @@ import { MotionWrapper } from "@/components/common/motion-wrapper";
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* 3D Background */}
       <LazyStarsBackground />
       
@@ -86,7 +86,7 @@ export function Hero() {
             <div>
               <MagneticButton>
                 <Button asChild size="lg" className="text-sm sm:text-base px-4 sm:px-8">
-                  <Link href="/about">About Me</Link>
+                  <Link href="/#about">About Me</Link>
                 </Button>
               </MagneticButton>
             </div>

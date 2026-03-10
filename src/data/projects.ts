@@ -15,6 +15,34 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: "taskhub",
+    title: "TaskHub - Project Management & Team Collaboration Platform",
+    description:
+      "A full-stack project management platform that helps teams plan, assign, and track tasks across workspaces.",
+    longDescription:
+      "TaskHub is a comprehensive project management and team collaboration platform built with Next.js, TypeScript, and modern full-stack technologies. It enables teams to organize projects, assign tasks with priorities and deadlines, and collaborate in real-time. The platform features role-based access control, secure 2FA authentication with email verification, workspace-level permissions, and subscription management. Built with a focus on scalability and user experience, TaskHub provides a seamless workflow for managing complex projects.",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "Prisma",
+      "MySQL"
+    ],
+    features: [
+      "Task management with priorities, deadlines, and assignments",
+      "Real-time team collaboration and updates",
+      "Secure authentication with 2FA and email verification",
+      "Role-based access control and workspace permissions",
+      "Subscription management for different plan tiers",
+      "Clean, intuitive UI for efficient task tracking"
+    ],
+    image: "/images/projects/taskhub/taskhub.png",
+    demoUrl: "https://taskhub-v1.vercel.app",
+    githubUrl: "https://github.com/shivamdarekar/taskhub",
+    category: "web"
+  },
+  {
     id: "vmc-civic-issue",
     title: "VMC Civic Issue Monitoring System",
     description:
@@ -76,33 +104,6 @@ export const projects: Project[] = [
     image: "/images/projects/imageCraft-pro/imagecraft-pro.png",
     demoUrl: "https://imagecraft-pro.vercel.app/",
     githubUrl: "https://github.com/shivamdarekar/imagecraft-pro",
-    category: "web"
-  },
-  {
-    id: "taskhub",
-    title: "TaskHub - Project Management & Team Collaboration Platform",
-    description:
-      "A full-stack project management platform that helps teams plan, assign, and track tasks across workspaces.",
-    longDescription:
-      "TaskHub is a comprehensive project management and team collaboration platform built with Next.js, TypeScript, and modern full-stack technologies. It enables teams to organize projects, assign tasks with priorities and deadlines, and collaborate in real-time. The platform features role-based access control, secure 2FA authentication with email verification, workspace-level permissions, and subscription management. Built with a focus on scalability and user experience, TaskHub provides a seamless workflow for managing complex projects.",
-    technologies: [
-      "Next.js",
-      "TypeScript",
-      "Redux Toolkit",
-      "Tailwind CSS",
-      "Prisma",
-      "MySQL"
-    ],
-    features: [
-      "Task management with priorities, deadlines, and assignments",
-      "Real-time team collaboration and updates",
-      "Secure authentication with 2FA and email verification",
-      "Role-based access control and workspace permissions",
-      "Subscription management for different plan tiers",
-      "Clean, intuitive UI for efficient task tracking"
-    ],
-    image: "/images/projects/taskhub/taskhub.png",
-    githubUrl: "https://github.com/shivamdarekar/taskhub",
     category: "web"
   },
   {

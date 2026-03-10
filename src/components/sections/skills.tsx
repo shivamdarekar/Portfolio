@@ -43,7 +43,7 @@ export function SkillsShowcase() {
   ];
 
   return (
-    <section className="relative flex flex-col items-center justify-center min-h-screen bg-black text-white py-20 px-6">
+    <section id="skills" className="relative flex flex-col items-center justify-center min-h-screen bg-black text-white py-20 px-6">
       <div className="text-center mb-16 z-10">
         <h2 className="text-5xl md:text-6xl font-extrabold mb-3 tracking-tight">
           Technical Skills

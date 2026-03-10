@@ -7,7 +7,7 @@ import { Calendar, MapPin, Building2 } from "lucide-react";
 
 export function Experience() {
   return (
-    <section className="py-20 px-4">
+    <section id="experience" className="py-20 px-4">
       <div className="container mx-auto max-w-4xl">
         {/* Section Header */}
         <motion.div

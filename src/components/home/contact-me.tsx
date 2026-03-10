@@ -30,7 +30,7 @@ export function ContactMe() {
   ];
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-background via-muted/30 to-background">
+    <section id="contact" className="py-20 px-4 bg-gradient-to-br from-background via-muted/30 to-background">
       <div className="container mx-auto max-w-4xl text-center">
         <motion.div
           initial="hidden"

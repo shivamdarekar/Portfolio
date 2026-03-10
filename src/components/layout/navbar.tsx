@@ -71,7 +71,7 @@ export function Navbar() {
             {/* Desktop Navigation */}
             <div className="hidden md:flex gap-6">
               {NAV_ITEMS.map((item) => {
-                const active = pathname === item.href;
+                const isActive = pathname === item.href;
                 return (
                   <motion.div
                     whileHover={{ scale: 1.1 }}
@@ -82,7 +82,7 @@ export function Navbar() {
                       href={item.href}
                       className={cn(
                         "text-sm font-medium transition-all",
-                        active
+                        isActive
                           ? "text-primary"
                           : "text-muted-foreground hover:text-primary"
                       )}
@@ -90,7 +90,7 @@ export function Navbar() {
                       {item.label}
                     </Link>
 
-                    {active && (
+                    {isActive && (
                       <motion.div
                         initial={{ scaleX: 0 }}
                         animate={{ scaleX: 1 }}
