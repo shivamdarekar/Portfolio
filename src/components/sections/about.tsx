@@ -18,7 +18,7 @@ export function About() {
         <SectionHeader 
           title="About Me"
           highlightWord="Me"
-          subtitle="Passionate about building innovative solutions at the intersection of cloud computing, full-stack development, and emerging technologies."
+          subtitle="Building scalable web applications with a focus on system design, performance optimization, and real-world problem solving."
         />
 
         {/* Intro + Education */}
@@ -79,16 +79,19 @@ export function About() {
             {/* RIGHT — About Text */}
             <div className="space-y-6 text-lg leading-relaxed">
               <p>
-                Hi, I&apos;m Shivam Darekar, a passionate Computer Science Engineering student who loves building scalable web applications and exploring how systems work behind the scenes.
-                I enjoy turning ideas into real-world products using clean code, thoughtful design, and performance-focused architecture.
+                Hi, I&apos;m Shivam Darekar, a Computer Science Engineering student focused on building scalable and reliable web applications. I enjoy understanding how systems behave under load, how data flows across services, and how performance trade-offs impact real-world applications.
               </p>
 
               <p>
-                Currently pursuing my B.Tech at Parul Institute of Technology, Parul University, Vadodara, I&apos;m sharpening my skills in Data Structures & Algorithms, Full-Stack Development, and stepping into the world of DevOps to understand how software runs reliably at scale.
+                Currently pursuing my B.Tech at Parul Institute of Technology, I am strengthening my problem-solving skills in Data Structures &amp; Algorithms while building full-stack applications using Next.js, React, Node.js, and PostgreSQL.
               </p>
 
               <p>
-                I&apos;ve worked on projects like TaskHub (a team collaboration platform), TrendsWave (an e-commerce platform with secure payments), and Vidtube (a video-sharing backend), gaining hands-on experience with modern tech stacks including React, Next.js, Node.js, and databases like MongoDB and PostgreSQL.
+                I have developed projects like TaskHub (a team collaboration platform), a geo-fenced Civic Issue Monitoring System with offline-first capabilities, and TrendsWave (an e-commerce platform with secure payments). Through these, I&apos;ve worked on authentication, role-based access control, API design, and database optimization while handling real-world constraints.
+              </p>
+
+              <p>
+                I&apos;m currently exploring DevOps and system design to better understand how applications scale and run reliably in production.
               </p>
             </div>
           </div>

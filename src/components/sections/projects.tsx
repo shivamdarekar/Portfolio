@@ -1,11 +1,15 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { projects } from "@/data/projects";
 import { ANIMATION_VARIANTS } from "@/lib/constants";
 import { ProjectCard } from "@/components/ui/project-card";
+import { ProjectModal } from "@/components/ui/project-modal";
+import type { Project } from "@/data/projects";
 
 export function Projects() {
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   return (
     <section className="py-20 px-4 bg-muted/30">
       <div className="container mx-auto max-w-6xl">
@@ -35,10 +39,21 @@ export function Projects() {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
         >
           {projects.map((project, index) => (
-            <ProjectCard key={project.id} project={project} index={index} />
+            <ProjectCard
+              key={project.id}
+              project={project}
+              index={index}
+              onViewDetails={setSelectedProject}
+            />
           ))}
         </motion.div>
       </div>
+
+      <ProjectModal
+        project={selectedProject}
+        isOpen={!!selectedProject}
+        onClose={() => setSelectedProject(null)}
+      />
     </section>
   );
 }
