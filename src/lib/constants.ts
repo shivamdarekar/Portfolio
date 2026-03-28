@@ -5,7 +5,7 @@ export const SITE_CONFIG = {
   description:
     "B.Tech Computer Science Engineering Student at Parul University | Full-stack Developer | DevOps Enthusiast | Building scalable web applications",
   url: "https://shivamdarekar.com", 
-  ogImage: "/images/me/og-image.png",
+  ogImage: "/preview.png",
   links: {
     email: "darekarshivam0@gmail.com",
     github: "https://github.com/shivamdarekar",
