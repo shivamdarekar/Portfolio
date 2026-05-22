@@ -49,6 +49,37 @@ export const projects: Project[] = [
     category: "web"
   },
   {
+    id: "kortex-ai",
+    title: "Kortex AI - Full-Stack PDF RAG Assistant",
+    description:
+      "A full-stack RAG application that lets you upload a PDF and have an intelligent conversation with it, with every pipeline step visible in the UI.",
+    longDescription:
+      "Kortex AI is a full-stack retrieval-augmented generation application built from scratch to understand the complete RAG pipeline without LangChain abstractions. It lets users upload a PDF, extracts text page by page, cleans and chunks it semantically, generates embeddings with Hugging Face, stores vectors in Pinecone, and returns grounded answers with Groq. The interface exposes the live pipeline in detail, including extraction stats, chunk counts, embedding dimensions, retrieval steps, and per-step timing, so the entire flow stays debuggable and transparent.",
+    technologies: [
+      "Next.js 16",
+      "Express 5",
+      "TypeScript",
+      "Pinecone",
+      "Groq",
+      "Hugging Face",
+      "pdf-parse",
+      "React Markdown",
+      "Tailwind CSS",
+      "shadcn/ui"
+    ],
+    features: [
+      "Upload PDF files up to 10 MB and process them through a guided RAG pipeline",
+      "Extracts text page by page, cleans noisy content, and splits it into semantic chunks",
+      "Generates embeddings with BAAI/bge-small-en-v1.5 and stores vectors in Pinecone",
+      "Retrieves top-K relevant chunks and returns source-backed answers with Groq",
+      "Supports document-grounded and general knowledge Q&A modes",
+      "Displays live pipeline stats such as extracted pages, chunk counts, vector dimensions, and timing",
+      "Built from scratch without LangChain to keep every stage understandable and debuggable"
+    ],
+    image: "/images/projects/Kortex-AI/Kortex-AI.png",
+    category: "ai"
+  },
+  {
     id: "vmc-civic-issue",
     title: "VMC Civic Issue Monitoring System",
     description:

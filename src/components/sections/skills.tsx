@@ -33,6 +33,9 @@ const skills: Skill[] = [
   { name: "GitHub", logo: "https://skillicons.dev/icons?i=github&theme=light" },
   { name: "Vercel", logo: "https://skillicons.dev/icons?i=vercel&theme=light" },
   { name: "Cloudinary", logo: "https://skillicons.dev/icons?i=nodejs" },
+  { name: "Pinecone", logo: "https://cdn.simpleicons.org/pinecone" },
+  { name: "Groq", logo: "https://cdn.simpleicons.org/groq" },
+  { name: "Hugging Face", logo: "https://cdn.simpleicons.org/huggingface" },
 
   { name: "PostGIS", logo: "https://skillicons.dev/icons?i=postgres" },
   { name: "TensorFlow.js", logo: "https://skillicons.dev/icons?i=tensorflow" },
@@ -43,9 +46,9 @@ export function SkillsShowcase() {
   const rows = [
     skills.slice(0, 6),    // Row 1: 6 skills
     skills.slice(6, 11),   // Row 2: 5 skills
-    skills.slice(11, 15),  // Row 3: 4 skills
-    skills.slice(15, 18),  // Row 4: 3 skills
-    skills.slice(18, 20),  // Row 5: 2 skills
+    skills.slice(11, 16),  // Row 3: 5 skills
+    skills.slice(16, 20),  // Row 4: 4 skills
+    skills.slice(20, 23),  // Row 5: 3 skills
   ];
 
   return (
@@ -55,7 +58,7 @@ export function SkillsShowcase() {
           Technical Skills
         </h2>
         <p className="text-gray-400 text-lg font-light">
-          Technologies I use to build scalable full-stack products
+          Technologies I use to build scalable full-stack and AI-powered products
         </p>
       </div>
 
